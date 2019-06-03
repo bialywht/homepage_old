@@ -5,7 +5,14 @@ body {
 h1 {
     color: #1640aa;
 }
+h2{
+    color: #ff1122;
+}
 
 p {
     color: #2e6e22;
+}
+
+footer{
+    color: #000000;
 }
