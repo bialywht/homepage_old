@@ -2,10 +2,10 @@ body {
     color: #fefefe;
 }
 
-h1 {
+.mainHeader {
     color: #1640aa;
 }
-h2{
+.sectionHeader {
     color: #ff1122;
 }
 
