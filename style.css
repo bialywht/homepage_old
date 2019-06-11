@@ -1,22 +1,24 @@
 body {
-    color: #a89571;
+    color: #FFFAF0;
 }
 
 .mainHeader {
-    color: #6B562C;
+    color: #5C523E;
 }
 .sectionHeader {
-    color: #6B562C;
+    color: #5C523E;
 }
 
-.sectionP {
-    color: #CBBB9B;
+.paragraph {
+    color: #8B7F68;
 }
 
-.articleP {
-    color: #CBBB9B;
-}
+
 
 .mainFooter{
-    color: #85724E;
+    color: #D3CBBA;
+}
+
+.link{
+color:  #8B7F68;   
 }
