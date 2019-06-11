@@ -1,4 +1,4 @@
 const name = 'Maciej';
 const age = 39;
 
-alert(`Nazywam się ${name} i mam ${age} lat.`);
+console.log(`Nazywam się ${name} i mam ${age} lat.`);
