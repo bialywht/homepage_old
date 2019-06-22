@@ -1,18 +1,15 @@
-body {
-    color: #FFFAF0;
-}
-
-.main{
+.main {
     width: 100%;
-    max-width: 700px;   
+    max-width: 700px;
     margin: 25px auto;
 }
 
 .mainHeader {
     color: #5C523E;
     margin: 0px 0px 25px 0px;
-    
+    padding-top: 50px;
 }
+
 .secondHeader {
     color: #5C523E;
 }
@@ -20,19 +17,47 @@ body {
 .paragraph {
     color: #8B7F68;
     padding: 0px 20px;
-    
 }
 
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
 
+.navigation {
+    position: fixed;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    background: #8B7F68;
+}
 
-.mainFooter{
+.mainFooter {
     color: #D3CBBA;
 }
 
-.link{
-color:  #8B7F68;   
+.link {
+    color: #D3CBBA;
 }
 
-.prepareSection {
-    
+.box {
+    width: 100px;
+    height: 100px;
+    background: #8B7F68;
+    padding: 10px;
+    border: 10px solid black;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    left: 50%;
+}
+
+.image{
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 16px auto;
 }
