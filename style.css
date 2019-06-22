@@ -17,6 +17,8 @@
 .section__paragraph, .article__paragraph {
     color: #8B7F68;
     padding: 0px 20px;
+    line-height: 32px;
+    text-align: justify;
 }
 
 .section__paragraph--color{
@@ -47,17 +49,7 @@
     color: #D3CBBA;
 }
 
-.main__box {
-    width: 100px;
-    height: 100px;
-    background: #8B7F68;
-    padding: 10px;
-    border: 10px solid black;
-    box-sizing: border-box;
-    position: sticky;
-    top: 0;
-    left: 50%;
-}
+
 
 .footer__image{
     width: 100%;
