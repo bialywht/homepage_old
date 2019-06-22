@@ -2,15 +2,25 @@ body {
     color: #FFFAF0;
 }
 
+.main{
+    width: 100%;
+    max-width: 700px;   
+    margin: 25px auto;
+}
+
 .mainHeader {
     color: #5C523E;
+    margin: 0px 0px 25px 0px;
+    
 }
-.sectionHeader {
+.secondHeader {
     color: #5C523E;
 }
 
 .paragraph {
     color: #8B7F68;
+    padding: 0px 20px;
+    
 }
 
 
@@ -21,4 +31,8 @@ body {
 
 .link{
 color:  #8B7F68;   
+}
+
+.prepareSection {
+    
 }
