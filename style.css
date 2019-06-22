@@ -4,17 +4,17 @@
     margin: 25px auto;
 }
 
-.mainHeader {
+.main__title {
     color: #5C523E;
     margin: 0px 0px 25px 0px;
     padding-top: 50px;
 }
 
-.secondHeader {
+.section__title, .article__title {
     color: #5C523E;
 }
 
-.paragraph {
+.section__paragraph, .article__paragraph {
     color: #8B7F68;
     padding: 0px 20px;
 }
@@ -35,7 +35,7 @@
     background: #8B7F68;
 }
 
-.mainFooter {
+.footer {
     color: #D3CBBA;
 }
 
@@ -43,7 +43,7 @@
     color: #D3CBBA;
 }
 
-.box {
+.main__box {
     width: 100px;
     height: 100px;
     background: #8B7F68;
@@ -55,7 +55,7 @@
     left: 50%;
 }
 
-.image{
+.footer__image{
     width: 100%;
     max-width: 400px;
     display: block;
