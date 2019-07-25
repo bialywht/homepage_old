@@ -1,7 +1,13 @@
+body{
+    background: linear-gradient(90deg, rgba(139,127,104,1) 0%, rgba(211,203,186,1) 6%, rgba(255,255,255,1) 100%);
+}
+
 .main, .footer {
     width: 100%;
     max-width: 700px;
     margin: 25px auto;
+    
+
 }
 
 .main__title {
@@ -36,8 +42,8 @@
 .navigation {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content:space-around;
+    align-content: center;
     position: fixed;
     box-sizing: border-box;
     width: 100%;
