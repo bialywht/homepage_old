@@ -34,6 +34,10 @@
 }
 
 .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
     position: fixed;
     box-sizing: border-box;
     width: 100%;
@@ -42,7 +46,7 @@
     padding: 5px;
     background: #8B7F68;
     text-decoration: none;
-}
+    
 
 .footer {
     color: #D3CBBA;
@@ -50,6 +54,8 @@
 
 .navigation__link {
     color: #D3CBBA;
+    
+}
 }
 
 
