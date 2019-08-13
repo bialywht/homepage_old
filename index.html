@@ -20,9 +20,12 @@
 	</header>
 	<main class="main">
 
+
+
+
 		<header id="top" class="main__title">
 			<h1>
-				Notatki do kursu gita
+				Notatki do kursu
 			</h1>
 		</header>
 		<section class="section">
@@ -86,6 +89,43 @@
 				expedita reprehenderit blanditiis earum unde ipsam sequi neque maiores, quos magni. Consequatur.
 			</p>
 		</section>
+		<fieldset>
+			<legend>Formularz</legend>
+			<form class="form" action="https://dev.cotenfrontend.pl" method="POST">
+				<p>
+					<label for="name">Your name:</label><br>
+					<input required type="text" placeholder="Imię" name="name" id="name">
+				</p>
+				<p>
+					<label for="surname">Your surname:</label><br>
+					<input type="text" placeholder="Nazwisko" name="surname" id="surname">
+				</p>
+				<p>
+					<label for="password">Password:</label><br>
+					<input type="password" placeholder="hasło" name="password" id="password">
+				</p>
+				<p>
+					<label for="range">Range:</label><br>
+					<input type="range" min="0" max="100" step="5" value="80" name="range">
+				</p>
+				<p>
+					<label for="file">File:</label><br>
+					<input type="file" name="file">
+				</p>
+				<p>
+					<label for="select">Choose option:</label><br>
+					<select name="select" id="select">
+						<option>First option</option>
+						<option>Second option</option>
+						<option>Third option</option>
+					</select>
+				</p>
+				<p>
+					<input type="submit">
+				</p>
+			</form>
+
+		</fieldset>
 
 	</main>
 	<footer class="footer">
